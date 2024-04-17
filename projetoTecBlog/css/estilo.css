@@ -23,22 +23,69 @@ body{
     padding: 10px;
     
 }
+#area-principal {
+    width: 920px;
+    margin: 0 auto;
+    padding: 15px;
+
+}
+
+#area-postagens, #area-lateral {
+    background: orange;
+}
+
+#area-postagens {
+    width: 660px;
+    float: left;
+
+}
+#area-lateral {
+    width: 240px;
+    float: right;
+}
+
+#rodape {
+    background: #CCC;
+    text-align: center;
+    clear: both;
+    padding: 15px;
+}
+
+.postagem {
+    padding: 20px;
+    margin-bottom: 20px;
+    background: white;
+
+}
+
 
 /*Formatação do Menu*/
 a {
     text-decoration: none;
     font-weight: bold;
 }
+ /*Começo dos Links*/
 
 a:link, a:visited {
-    color: #FFF;
-    padding: 8px 12px;
+    color: #f7b600;
+}
+a:hover {
+    text-decoration: underline;
+
 }
 
-a:hover {
+
+#area-cabecalho a:link, #area-cabecalho a:visited {
+    color: #FFF;
+    padding: 8px 12px;
+    text-decoration: none;
+}
+
+#area-cabecalho a:hover {
     color: #f7b600;
     background: white;
 }
+/*Final dos Links*/
 
 /*Formatações Gerais*/
 
@@ -47,7 +94,19 @@ h1 {
     font-size: 2.5em;
 }
 
+h2 {
+    color: #F7B600;
+}
+
 .branco {
     color: white;
+}
+.data-postagem{
+    font-size: 0.8em;
+    border-bottom: 1px solid #F4F4F4;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;
+    
 }
 
